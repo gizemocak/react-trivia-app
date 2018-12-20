@@ -26,11 +26,6 @@ class App extends Component {
       }
     }
     this.setState({ score });
-
-    //this.props.questions.filter(
-    // question => question.user_answer === question.correct_answer
-    // );
-    //  .reduce((accumulator, currentValue) => accumulator + currentValue, 0)
   }
 
   render() {
