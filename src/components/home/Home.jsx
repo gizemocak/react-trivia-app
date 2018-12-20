@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Home.css";
 
 class App extends Component {
   render() {
@@ -10,7 +11,9 @@ class App extends Component {
           <p>Can you score 100%?</p>
         </section>
         <footer>
-          <button onClick={this.props.getQuestions}>Questions</button>
+          <button className="button" onClick={this.props.getQuestions}>
+            BEGIN
+          </button>
         </footer>
       </div>
     );

@@ -1,0 +1,51 @@
+.correctAnswer {
+  color: blue;
+}
+
+.wrongAnswer {
+  color: red;
+}
+
+.button1 {
+  font-size: 23px;
+  background: #ffff00;
+  border-style: none;
+  padding: 15px 30px 15px 30px;
+  transition: 0.5s;
+  margin-right: 10px;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button1:hover {
+  background: #ff6347;
+  color: white;
+}
+
+.score {
+  color: red;
+  font-size: 50px;
+}
+
+.div {
+  margin-bottom: 30px;
+}
+
+.answers {
+  text-align: left;
+}
+
+.red {
+  background: #f0ffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0px 40px 5px 40px;
+}
+
+.blue {
+  background: #ffe4e1;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0px 40px 5px 40px;
+}

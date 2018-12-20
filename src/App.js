@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Route, Switch, withRouter } from "react-router-dom";
-import Home from "./components/Home";
-import Questions from "./components/Questions";
-import Answers from "./components/Answers";
+import Home from "./components/home/Home";
+import Questions from "./components/questions/Questions";
+import Answers from "./components/answers/Answers";
 
 class App extends Component {
   constructor(props) {
