@@ -1,21 +1,12 @@
-.correctAnswer {
-  color: blue;
-}
-
-.wrongAnswer {
-  color: red;
-}
-
 .button1 {
   font-size: 23px;
   background: #ffff00;
   border-style: none;
   padding: 15px 30px 15px 30px;
   transition: 0.5s;
-  margin-right: 10px;
-  margin-top: 20px;
   text-align: center;
   text-decoration: none;
+  font-family: "ZCOOL KuaiLe", cursive;
 }
 
 .button1:hover {
@@ -26,6 +17,8 @@
 .score {
   color: red;
   font-size: 50px;
+  font-family: "ZCOOL KuaiLe", cursive;
+  font-weight: bolder;
 }
 
 .div {
@@ -34,18 +27,25 @@
 
 .answers {
   text-align: left;
+  font-family: "Roboto Mono", monospace;
 }
 
 .red {
-  background: #f0ffff;
+  background: #fedadb;
   padding-top: 5px;
   padding-bottom: 5px;
   margin: 0px 40px 5px 40px;
 }
 
 .blue {
-  background: #ffe4e1;
+  background: #a7fef8;
   padding-top: 5px;
   padding-bottom: 5px;
   margin: 0px 40px 5px 40px;
+}
+
+h2 {
+  font-family: "ZCOOL KuaiLe", cursive;
+  color: #6a5acd;
+  font-size: 30px;
 }

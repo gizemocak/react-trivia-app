@@ -37,15 +37,15 @@ class App extends Component {
           {this.props.questions.length > 0 &&
             this.props.questions[id - 1].category}{" "}
         </h1>
-        <div>
+        <div className="question">
           {this.props.questions.length > 0 &&
             ReactHtmlParser(this.props.questions[id - 1].question)}{" "}
         </div>
-        <div>{id} out of 10</div>
-        <button onClick={this.nextQuestion} value="True">
+        <div className="question-number">{id} / 10</div>
+        <button className="true" onClick={this.nextQuestion} value="True">
           True
         </button>
-        <button onClick={this.nextQuestion} value="False">
+        <button className="false" onClick={this.nextQuestion} value="False">
           False
         </button>
       </div>

@@ -6,15 +6,15 @@ class App extends Component {
     return (
       <div>
         <section>
-          <h1>Welcome to the Trivia Challenge!</h1>
-          <p>You will be presented with 10 True or False Questions.</p>
-          <p>Can you score 100%?</p>
+          <h1 className="header">Trivia</h1>
+          <div className="container">
+            <p>You will be presented with 10 True or False Questions.</p>
+            <p class>Can you score 100%?</p>
+          </div>
         </section>
-        <footer>
-          <button className="button" onClick={this.props.getQuestions}>
-            BEGIN
-          </button>
-        </footer>
+        <button className="button" onClick={this.props.getQuestions}>
+          BEGIN
+        </button>
       </div>
     );
   }

@@ -1,7 +1,31 @@
 .odd-number {
-  color: blueviolet;
+  color: #70fafe;
+  font-family: "ZCOOL KuaiLe", cursive;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-size: 60px;
 }
 
 .even-number {
-  color: coral;
+  color: #ffff00;
+  font-family: "ZCOOL KuaiLe", cursive;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-size: 60px;
+}
+
+.question-number {
+  color: #fff;
+  font-family: "ZCOOL KuaiLe", cursive;
+  font-size: 20px;
+}
+
+.question {
+  background: #fff;
+  padding: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  border: 9px solid #70fafe;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
 }

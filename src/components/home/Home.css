@@ -1,23 +1,44 @@
 * {
-  font-family: "Roboto", sans-serif;
   text-align: center;
   margin-top: 35px;
 }
 
-h1 {
-  color: #000080;
+body {
+  background: #6a5acd;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  color: #ffff00;
+  font-family: "Permanent Marker", cursive;
+  font-size: 80px;
 }
 
 button {
   font-size: 23px;
-  background: #ffff00;
+  background: #ff6347;
+  color: white;
   border-style: none;
   padding: 15px 30px 15px 30px;
-  transition: 0.5s;
+  transition: 0.7s;
   margin-top: 5%;
+  font-family: "ZCOOL KuaiLe", cursive;
 }
 
 button:hover {
-  background: #ff6347;
-  color: white;
+  background: #ffff00;
+  color: #000;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  border: 9px solid #70fafe;
+}
+
+p {
+  font-family: "ZCOOL KuaiLe", cursive;
+  font-size: 20px;
 }

@@ -31,7 +31,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div className="div">
+        <div className="container">
           <h2>You Scored</h2>
           <h1 className="score">{this.state.score}/10</h1>
           <div className="answers">
